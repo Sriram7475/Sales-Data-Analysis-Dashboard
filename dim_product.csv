@@ -1,0 +1,16 @@
+product_id,product_name,category,unit_cost,unit_price
+1,Laptop Pro 15,Electronics,700,1100
+2,Wireless Earbuds,Electronics,35,79
+3,Office Chair,Furniture,90,180
+4,Standing Desk,Furniture,180,350
+5,Blender Max,Home Appliances,40,95
+6,Air Fryer XL,Home Appliances,55,130
+7,Running Shoes,Sportswear,30,85
+8,Yoga Mat,Sportswear,8,25
+9,Smart Watch,Accessories,90,220
+10,Travel Backpack,Accessories,22,65
+11,Water Bottle,Accessories,4,18
+12,Desk Lamp,Home Decor,12,38
+13,Wall Art Frame,Home Decor,10,45
+14,Coffee Maker,Home Appliances,45,120
+15,Gaming Mouse,Electronics,15,55
