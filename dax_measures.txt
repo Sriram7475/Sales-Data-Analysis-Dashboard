@@ -1,0 +1,25 @@
+Total Revenue = SUM(fact_sales[revenue])
+
+Total Orders = DISTINCTCOUNT(fact_sales[order_id])
+
+Total Units = SUM(fact_sales[quantity])
+
+Average Order Value = DIVIDE([Total Revenue], [Total Orders])
+
+Previous Month Revenue =
+CALCULATE(
+    [Total Revenue],
+    DATEADD(dim_date[full_date], -1, MONTH)
+)
+
+MoM Growth % =
+DIVIDE([Total Revenue] - [Previous Month Revenue], [Previous Month Revenue])
+
+Previous Quarter Revenue =
+CALCULATE(
+    [Total Revenue],
+    DATEADD(dim_date[full_date], -1, QUARTER)
+)
+
+QoQ Growth % =
+DIVIDE([Total Revenue] - [Previous Quarter Revenue], [Previous Quarter Revenue])
